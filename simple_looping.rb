@@ -10,7 +10,26 @@ def loop_iterator(number_of_times)
   #  phrase and break when the counter hits the appropriate number...
   phrase = "Welcome to Flatiron School's Web Development Course!"
   
+  loop number_of_times.do 
+    puts "Welcome to Flatiron School's Web Development Course!"
+    end
+  
 end
+
+=begin
+jewels_in_bag = 100
+ 
+3.times do 
+  puts "Hiding 10 stolen jewels."
+  jewels_in_bag = jewels_in_bag - 10
+end
+ 
+# => 3 (return value)
+ 
+puts "We have #{jewels_in_bag} jewels still to hide!"
+=end 
+
+
 
 def times_iterator(number_of_times)
   # code your solution here using the "times" keyword
@@ -40,3 +59,6 @@ def for_iterator(number_of_times)
   
 end
 
+
+# Each method takes in an argument of an integer. If you call one of the methods with an argument of `4`, your method should loop and `puts` out a phrase `4` times. If you call the same method with an argument of `10`, your method should loop and `puts` out that phrase `10` times. 
+# As you move through the lab, think about the differences between the looping constructs you're utilizing. What are some advantages to using certain constructs? Disadvantages?
